@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav>
-          thesis obd
+          Thesis obd by Bani and Bak
         </nav>
 
         {children}
