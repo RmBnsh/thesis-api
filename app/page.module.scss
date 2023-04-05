@@ -1,0 +1,15 @@
+div.home {
+  
+  div.section {
+    background-color: red;
+  }
+}
+
+div.model {
+  padding: 10px;
+
+  div.model_data {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
