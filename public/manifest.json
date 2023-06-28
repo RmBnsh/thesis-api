@@ -1,7 +1,7 @@
 {
     "name": "Thesis Api",
     "short_name": "Obd App",
-    "start_url": "http://localhost:3000/",
+    "start_url": "https://thesis-api.vercel.app/",
     "display": "standalone",
     "background_color": "#D61F69",
     "theme_color": "#000000",
