@@ -1,15 +1,60 @@
-div.home {
-  
-  div.section {
-    background-color: red;
+
+/* page.module.scss */
+
+.modelCard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3)), url("/big-data_3.jpg");
+  text-align: center;
+  border: 7px solid #42389D;
+  border-radius: 18px;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(30.33% - 20px); /* Adjust the width as needed */
+  margin-right: 35px; /* Adjust the margin between cards */
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .modelCard {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
-div.model {
-  padding: 10px;
 
-  div.model_data {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-  }
+.carId {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
 }
+
+.modelData {
+  margin-top: 10px;
+}
+
+.dataRow {
+  border-bottom: 1px solid rgb(56, 79, 182);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.dataItem {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
