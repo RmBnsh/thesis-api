@@ -1,5 +1,7 @@
+
 import './globals.css'
 import Navbar from '../components/Navbar';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 
@@ -16,20 +18,21 @@ export default function RootLayout({ children }) {
     
     <html lang="en">
       <head>
+      <link rel="manifest" href="/manifest.json" />
       <link rel="icon" href="/favicon-32x32.png" />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
       <script src="https://cdn.tailwindcss.com"></script>
       </head>
       <body>
-      
-      <div>
-        
+             
         <Navbar />
         
-      </div>
+      
         {children}
+        <ScrollToTopButton />
         <Footer />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        
       </body>
     </html>
   )

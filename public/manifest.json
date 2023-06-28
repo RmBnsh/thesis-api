@@ -1,0 +1,21 @@
+{
+    "name": "Thesis Api",
+    "short_name": "Obd App",
+    "start_url": "http://localhost:3000/",
+    "display": "standalone",
+    "background_color": "#D61F69",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/chrome1.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/chrome2.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
